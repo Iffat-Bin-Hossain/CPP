@@ -1,0 +1,12 @@
+Operation  time(ms)
+insertion  28.655
+deletion  103.443
+search  26.78
+trav  0
+total  158.878
+
+operation   average time(ms)
+insertion  0.00143584
+deletion  0.00257654
+search  0.000671262
+trav  0

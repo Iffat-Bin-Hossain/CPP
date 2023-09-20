@@ -1,0 +1,1 @@
+freopen("APSP_Output.txt", "w", stdout);
