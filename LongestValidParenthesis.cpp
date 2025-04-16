@@ -1,9 +1,7 @@
-#include <bits/stdc++.h>
+#include<bits\stdc++.h>
 using namespace std;
-
-bool isValid(string s)
-{
-    stack<char> stk;
+int longestValidParentheses(string s) {
+       stack<char> stk;
     for (int i = 0; i < s.length(); i++)
     {
         if (stk.empty())
@@ -21,12 +19,10 @@ bool isValid(string s)
             stk.push(s[i]);
         }
     }
-    return stk.empty();
-}
-
+        return s.length()-stk.size();
+    }
 int main(){
-    string s;
-    cin >> s;
-    cout << (isValid(s) ? "true" : "false") << endl;
-    return 0;
+string s;
+cin>>s;
+cout<<longestValidParentheses(s);
 }

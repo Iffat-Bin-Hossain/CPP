@@ -1,0 +1,16 @@
+
+Minimum number of moves: 0
+Number of explored boards: 0
+Number of expanded boards: 0
+
+0 0 0
+0 0 0
+0 0 0
+
+Minimum number of moves: 0
+Number of explored boards: 0
+Number of expanded boards: 0
+
+0 0 0
+0 0 0
+0 0 0
